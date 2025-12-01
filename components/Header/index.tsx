@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import Link from "next/link";
 
 function Header() {
@@ -12,6 +11,10 @@ function Header() {
             <Link href="/">
               <h1 className="text-2xl font-bold mb-0">Media Feed</h1>
             </Link>
+          </div>
+
+          <div>
+            <Link className="text-xs" href="https://www.pexels.com/" target="_blank">Photos & videos provided by Pexels</Link>
           </div>
         </div>
       </div>

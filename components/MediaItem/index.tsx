@@ -30,7 +30,7 @@ export default function MediaItem({ item }: { item: MediaItem }) {
     const videoUrl = item.video_files.find(f => f.quality === 'hd')?.link || item.video_files[0].link
 
     if (isVideo && videoUrl) {
-      // Pre-warm the video blob in memory
+      // Preload the video blob in memory
       fetch(videoUrl).then(r => r.blob());
     }
   };

@@ -1,4 +1,3 @@
-// components/Modal/MediaModal.tsx
 'use client';
 
 import Image from 'next/image';

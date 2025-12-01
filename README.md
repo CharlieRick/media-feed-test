@@ -11,7 +11,7 @@ An infinite-scrolling media feed featuring curated photos and videos from Pexels
 - Next.js 15 + App Router + Server Components
 - Type-safe infinite scroll with custom `useAsync` hook
 - Full-screen modal with native `<dialog>`
-- Hover-to-preload, UX animations, responsive layout
+- Hover to preload video, UX animations, responsive layout
 - Skeleton loaders, image optimization
 
 ## Why Pexels?
@@ -23,7 +23,8 @@ Flickr now requires a paid Pro account for API access. Switched to Pexels (free,
 ```bash
 cp .env.example .env
 
-# add your Pexels key from https://www.pexels.com/api/
+# add your Pexels API key from https://www.pexels.com/api/
 
+npm install
 npm run dev
 ```

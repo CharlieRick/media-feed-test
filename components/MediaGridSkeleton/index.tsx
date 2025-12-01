@@ -1,4 +1,3 @@
-// components/MediaGrid/MediaGridSkeleton.tsx
 import { SkeletonCard } from '../SkeletonCard';
 
 interface MediaGridSkeletonProps {
