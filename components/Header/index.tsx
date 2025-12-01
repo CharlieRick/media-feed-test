@@ -5,7 +5,7 @@ import Link from "next/link";
 function Header() {
   return (
     <header className="bg-black border-b fixed z-50 border-white w-full h-[60px] flex items-center">
-      <div className="container px-12">
+      <div className="mx-auto container px-12">
         <div className="flex justify-between items-center">
           <div>
             <Link href="/">
@@ -13,7 +13,7 @@ function Header() {
             </Link>
           </div>
 
-          <div>
+          <div className="hidden lg:block">
             <Link className="text-xs" href="https://www.pexels.com/" target="_blank">Photos & videos provided by Pexels</Link>
           </div>
         </div>
